@@ -1,15 +1,12 @@
-import { firebase } from "@react-native-firebase/firestore";
+import firestore from '@react-native-firebase/firestore';
 import { Sample, buildSample } from '../../types/SampleEntity';
 import { SampleRepository } from "./SampleRepository"
 
 
 export class ImplSampleRepository implements SampleRepository{
-
-    /** firestore利用のための変数 */
-    db = firebase.firestore();
     
     /** sampleDBのReference */
-    sampleRef= this.db.collection('sample');
+    sampleRef= firestore().collection('sample');
     
 
     async fetchAll(): Promise<Sample[]> {
@@ -17,9 +14,14 @@ export class ImplSampleRepository implements SampleRepository{
     }
 
     async fetchById(id: string): Promise<Sample> {
+        const sampleList: Sample[] = []
         const snapshot = await this.sampleRef.doc(id).get();
-        const sample = buildSample(snapshot.data());
-        return sample; 
+        console.log(id);
+        console.log(snapshot);
+        const res = buildSample(snapshot.data());
+        //const res : Sample = snapshot.data() as Sample
+
+        return res; 
     }
 
 

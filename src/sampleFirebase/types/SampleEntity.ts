@@ -6,7 +6,7 @@ export type Sample = {
     bool: boolean;
 }
 
-export const buildSample = (data: FirebaseFirestoreTypes.DocumentData|undefined) => {
+export const buildSample = (data: FirebaseFirestoreTypes.DocumentData | undefined) => {
     const sample: Sample = {
       name: data?.name,
       number: data?.number,
