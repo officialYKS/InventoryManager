@@ -1,5 +1,13 @@
 # ReactNativeInitPJ
 
+## iOSビルド前に行うコマンド
+podインストール
+```
+cd ios
+pod install
+```
+
+
 ## iOSのデバッグビルドコマンド
 - 本番環境(mainブランチ)
 ```
