@@ -1,4 +1,4 @@
-package com.reactnativeinitpj;
+package jp.co.officialYKS.inventoryManager;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

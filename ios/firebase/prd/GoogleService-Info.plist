@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>482222108966-oqim0ljp43j65rjsvom6isqv5m27o4ih.apps.googleusercontent.com</string>
+	<string>482222108966-jecl770708hrif8cl4f1u5p0mct41ape.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.482222108966-oqim0ljp43j65rjsvom6isqv5m27o4ih</string>
+	<string>com.googleusercontent.apps.482222108966-jecl770708hrif8cl4f1u5p0mct41ape</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCZHtuHnZmHxiPzUg7aBA-a2TSu0UOdHug</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example.inventoryManager</string>
+	<string>jp.co.officialYKS.inventoryManager</string>
 	<key>PROJECT_ID</key>
 	<string>inventoriesmanager</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:482222108966:ios:0c1a6e6615b68449e611e7</string>
+	<string>1:482222108966:ios:2a41806dc6294df4e611e7</string>
 	<key>DATABASE_URL</key>
 	<string>https://inventoriesmanager-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>
