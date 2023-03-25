@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>104690289163-l1op7oncb1pije7k3pe0aogvigk8vkel.apps.googleusercontent.com</string>
+	<string>104690289163-2kpn0l0f09h8food2fdgono7lds9njjl.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.104690289163-l1op7oncb1pije7k3pe0aogvigk8vkel</string>
+	<string>com.googleusercontent.apps.104690289163-2kpn0l0f09h8food2fdgono7lds9njjl</string>
 	<key>API_KEY</key>
 	<string>AIzaSyC00q0RHEXDWdh9OZgLSStbAI7ijbPjKYA</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example.inventoryManager</string>
+	<string>jp.co.officialYKS.inventoryManager</string>
 	<key>PROJECT_ID</key>
 	<string>inventorymanager-feature</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:104690289163:ios:ee37cfaa30872e2be2950e</string>
+	<string>1:104690289163:ios:dec8d0c21530c0c9e2950e</string>
 </dict>
 </plist>
