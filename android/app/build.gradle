@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.reactnativeinitpj"
+    namespace "jp.co.officialYKS.inventoryManager"
     defaultConfig {
-        applicationId "com.reactnativeinitpj"
+        applicationId "jp.co.officialYKS.inventoryManager"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

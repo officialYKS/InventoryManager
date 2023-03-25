@@ -24,6 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import { FirestoreSample } from './sampleFirebase/components/pages/FirebaseSample';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -33,6 +34,7 @@ function Section({children, title}: SectionProps): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
+      <FirestoreSample></FirestoreSample>
       <Text
         style={[
           styles.sectionTitle,
