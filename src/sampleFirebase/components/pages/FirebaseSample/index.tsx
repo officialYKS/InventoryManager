@@ -5,20 +5,8 @@ import { ImplSampleRepository } from '../../../api/sampleDb/ImplSampleRepository
 import { SampleRepository } from '../../../api/sampleDb/SampleRepository';
 
 export function FirestoreSample() {
-    const [sample1, setSample1] = useState<Sample>(
-        {
-            name:"",
-            number:0,
-            bool:true,
-        }
-    );
-    const [sample2, setSample2] = useState<Sample>(
-        {
-            name:"",
-            number:0,
-            bool:true,
-        }
-    );
+    const [sample1, setSample1] = useState<Sample>();
+    const [sample2, setSample2] = useState<Sample>();
     /**SampleDBからデータを取得するレポジトリ */
     const sampleRepo: SampleRepository = new ImplSampleRepository();
 

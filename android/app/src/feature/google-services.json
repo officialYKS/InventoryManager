@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "104690289163",
+    "project_id": "inventorymanager-feature",
+    "storage_bucket": "inventorymanager-feature.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104690289163:android:2f90b51310bc418de2950e",
+        "android_client_info": {
+          "package_name": "jp.co.officialYKS.inventoryManager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104690289163-ltvk5vof3oe1a53cvc1onv4773p9hmqu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jp.co.officialYKS.inventoryManager",
+            "certificate_hash": "cd02a208d01a2b01f4afb1f7860d80e7fb0f8175"
+          }
+        },
+        {
+          "client_id": "104690289163-s48r8omspqr1nlmlfrhmtac1rhm7hgkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ-m3w_jncieDVANw0P5yfaYSCsg1_BjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104690289163-s48r8omspqr1nlmlfrhmtac1rhm7hgkg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "104690289163-2kpn0l0f09h8food2fdgono7lds9njjl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.co.officialYKS.inventoryManager"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104690289163:android:782ad11e7f124d79e2950e",
+        "android_client_info": {
+          "package_name": "jp.co.officialYKS.inventoryManager.feature"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104690289163-p7do53r3n37s2eisv3nvs3offrbv84k8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jp.co.officialYKS.inventoryManager.feature",
+            "certificate_hash": "cd02a208d01a2b01f4afb1f7860d80e7fb0f8175"
+          }
+        },
+        {
+          "client_id": "104690289163-s48r8omspqr1nlmlfrhmtac1rhm7hgkg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ-m3w_jncieDVANw0P5yfaYSCsg1_BjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104690289163-s48r8omspqr1nlmlfrhmtac1rhm7hgkg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "104690289163-2kpn0l0f09h8food2fdgono7lds9njjl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jp.co.officialYKS.inventoryManager"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
